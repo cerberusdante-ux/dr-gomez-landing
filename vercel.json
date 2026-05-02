@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build || true",
+  "outputDirectory": ".",
+  "env": {
+    "RESEND_API_KEY": {
+      "description": "API Key para envío de emails (Resend.com - opcional)"
+    }
+  },
+  "functions": {
+    "api/contact.js": {
+      "memory": 128,
+      "timeout": 10,
+      "runtime": "nodejs20.x"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "doctor": {
+    "nombre": "Dr. Luis Gómez",
+    "especialidad": "Urólogo",
+    "institucion": "Redsalud",
+    "descripcion": "Atención garantizada en problemas urológicos básicos y cirugías menores."
+  },
+  "contacto": {
+    "whatsapp": "+56987637989",
+    "whatsapp_sin_formato": "56987637989",
+    "instagram": "https://www.instagram.com/dr_gomez_uro/",
+    "instagram_handle": "@dr_gomez_uro"
+  },
+  "plataformas": {
+    "doctoralia": {
+      "url": "https://www.doctoralia.cl/booking/haga-una-cita/8585/67473",
+      "nombre_profesional": "Dr. Luis Gómez",
+      "widget_iframe": "https://www.doctoralia.cl/booking/haga-una-cita/8585/67473"
+    },
+    "redsalud": {
+      "url": "https://redsalud.cl",
+      "nombre": "Redsalud"
+    }
+  },
+  "seo": {
+    "titulo": "Dr. Luis Gómez | Urología Integral - Redsalud",
+    "descripcion": "Consultas presenciales en Redsalud San Miguel y La Florida, o telemedicina. Atención integral en urología.",
+    "keywords": "urología, consulta urólogo, Dr. Luis Gómez, Redsalud, Doctoralia, telemedicina",
+    "autor": "Dr. Luis Gómez"
+  },
+  "redes_sociales": {
+    "instagram_principal": "https://www.instagram.com/dr_gomez_uro/",
+    "twitter": "#DrDoodle",
+    "facebook": ""
+  },
+  "imagenes": {
+    "logo_dr_doodle": "dr_doodle.png",
+    "foto_profesional": "dr_luis_profesional.jpg",
+    "favicon": "🩺"
+  }
+}

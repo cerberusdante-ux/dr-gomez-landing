@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dr. Luis Gómez - Urología integral para hombres y mujeres. Consultas presenciales en Redsalud y telemedicina.">
+  <meta name="keywords" content="urología, consulta urólogo, Dr. Luis Gómez, Redsalud, Doctoralia, telemedicina">
+  <meta name="author" content="Dr. Luis Gómez">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dr. Luis Gómez - Urología Integral">
+  <meta property="og:description" content="Respuesta integral para la salud urológica masculina y femenina">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dr-doodle-landing.vercel.app">
+  
+  <title>Dr. Luis Gómez - Urología Integral</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩺</text></svg>">
+</head>
+<body>
+
+  <!-- NAVEGACIÓN FIJA -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">Dr. Gómez</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">Acerca de mí</a></li>
+        <li><a href="#consultas" class="nav-link">Consultas</a></li>
+        <li><a href="#agenda" class="nav-link">Agenda Online</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- SECCIÓN 1: HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 500'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%238B5CF6;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%236D28D9;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23grad)' width='400' height='500'/%3E%3Ctext x='50%25' y='50%25' font-size='100' fill='white' text-anchor='middle' dominant-baseline='middle'%3E👨‍⚕️%3C/text%3E%3C/svg%3E" alt="Dr. Luis Gómez" class="hero-photo">
+      </div>
+      <div class="hero-text">
+        <h1>Dr. Luis Gómez</h1>
+        <p class="tagline">Respuesta integral para la salud Urológica masculina y femenina</p>
+        <div class="hero-cta">
+          <a href="#agenda" class="btn btn-primary">Agendar Consulta</a>
+          <a href="#contacto" class="btn btn-secondary">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: ACERCA DE MÍ -->
+  <section id="about" class="section-about">
+    <div class="container">
+      <h2>¿Quién está detrás de Dr. Doodle?</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="intro">¡Hola! Soy el <strong>Dr. Luis Gómez</strong>, Urólogo y creador de <strong>Dr. Doodle</strong>, a través del cuál busco acercar la Urología a todos de forma sencilla, entretenida y profesional.</p>
+          
+          <p>Soy egresado de la especialidad de Urología dictada por la Universidad de Chile en el año 2020, y desde entonces me dedico a la atención de las patologías más comunes tanto de hombres como mujeres: Litiasis urinaria, Infecciones, Problemas prostáticos, Salud sexual y muchos más.</p>
+          
+          <p>Mi objetivo es combinar la excelencia clínica con la educación, para que entiendas tu condición urológica de manera clara y sin complicaciones innecesarias.</p>
+        </div>
+        <div class="about-image">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect fill='%23F3E8FF' rx='20' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='100' text-anchor='middle' dominant-baseline='middle'%3E🎨%3C/text%3E%3C/svg%3E" alt="Dr. Doodle mascota" class="doodle-image">
+          <p class="doodle-caption">Dr. Doodle - Tu compañero en urología</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 3: CONSULTAS (LUGARES DE ATENCIÓN) -->
+  <section id="consultas" class="section-consultas">
+    <div class="container">
+      <h2>Lugares de Atención</h2>
+      <p class="section-subtitle">Elige la sucursal más cercana a ti</p>
+      
+      <div class="consultas-grid">
+        <!-- Redsalud San Miguel -->
+        <div class="consulta-card">
+          <div class="card-icon">🏥</div>
+          <h3>Redsalud San Miguel</h3>
+          <p class="card-description">Atención presencial con tecnología de punta</p>
+          <a href="https://www.redsalud.cl/sucursales/redsalud-san-miguel" target="_blank" class="btn btn-outline">
+            Ver ubicación →
+          </a>
+        </div>
+
+        <!-- Redsalud La Florida -->
+        <div class="consulta-card">
+          <div class="card-icon">🏥</div>
+          <h3>Redsalud La Florida</h3>
+          <p class="card-description">Consulta especializada en ambiente cómodo</p>
+          <a href="https://www.redsalud.cl/sucursales/redsalud-la-florida" target="_blank" class="btn btn-outline">
+            Ver ubicación →
+          </a>
+        </div>
+
+        <!-- Telemedicina -->
+        <div class="consulta-card">
+          <div class="card-icon">💻</div>
+          <h3>Redsalud Telemedicina</h3>
+          <p class="card-description">Consulta online desde la comodidad de tu hogar</p>
+          <a href="https://agenda.redsalud.cl/patientPortal/identifyPatient" target="_blank" class="btn btn-outline">
+            Agendar Online →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 4: AGENDA ONLINE (DOCTORALIA) -->
+  <section id="agenda" class="section-agenda">
+    <div class="container">
+      <div class="agenda-header">
+        <div class="agenda-text">
+          <h2>Agenda tu Consulta</h2>
+          <p>Accede directamente a mi calendario en Doctoralia y elige el horario que mejor se adapte a ti.</p>
+        </div>
+        <div class="agenda-doodle">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23F3E8FF' rx='20' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E📅%3C/text%3E%3C/svg%3E" alt="Agenda" class="agenda-icon">
+        </div>
+      </div>
+      
+      <!-- Widget Doctoralia (iframe) -->
+      <div id="doctoralia-widget" class="doctoralia-widget">
+        <p class="loading-msg">Cargando widget de calendario...</p>
+      </div>
+      
+      <div class="agenda-note">
+        <p>Si prefieres contactarme antes de agendar, usa el formulario de contacto más abajo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 5: CONTACTO -->
+  <section id="contacto" class="section-contacto">
+    <div class="container">
+      <h2>Hablemos</h2>
+      <p class="section-subtitle">¿Tienes dudas sobre una consulta o procedimiento? Escríbeme y estaré encantado de orientarte o agenda tu cita directamente.</p>
+      
+      <div class="contact-container">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="nombre">Tu Nombre</label>
+            <input 
+              type="text" 
+              id="nombre" 
+              name="nombre" 
+              required 
+              placeholder="Juan Pérez"
+              maxlength="100"
+            >
+          </div>
+          
+          <div class="form-group">
+            <label for="mensaje">¿En qué te puedo ayudar?</label>
+            <textarea 
+              id="mensaje" 
+              name="mensaje" 
+              required 
+              placeholder="Cuéntame sobre tu consulta o dudas..."
+              rows="5"
+              maxlength="5000"
+            ></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-large">
+            Enviar Consulta
+          </button>
+          
+          <div id="formStatus" class="form-status"></div>
+        </form>
+        
+        <div class="contact-info">
+          <div class="info-box">
+            <h3>WhatsApp</h3>
+            <a href="https://wa.me/56987637989" target="_blank" class="contact-link">
+              +56 9 8763 7989
+            </a>
+          </div>
+          
+          <div class="info-box">
+            <h3>Instagram</h3>
+            <a href="https://www.instagram.com/dr_gomez_uro/" target="_blank" class="contact-link">
+              @dr_gomez_uro
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <p class="contact-disclaimer">
+        <strong>Nota:</strong> Este canal es para orientación o citas. No se realizan diagnósticos médicos por WhatsApp.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Dr. Luis Gómez. Todos los derechos reservados.</p>
+      <p class="footer-disclaimer">
+        Sitio informativo. Para diagnóstico y tratamiento, consulta presencialmente.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
