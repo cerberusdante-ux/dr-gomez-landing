@@ -32,12 +32,11 @@ export default async function handler(req, res) {
     // Instalar: npm install resend
     // Requerir API key en variables de entorno: RESEND_API_KEY
     
-    /*
     import { Resend } from 'resend';
     const resend = new Resend(process.env.RESEND_API_KEY);
     
     const resultado = await resend.emails.send({
-      from: 'noreply@dr-doodle.com',
+      from: 'onboarding@resend.dev',
       to: 'drgomezuro82@gmail.com',
       subject: `Nueva consulta de ${nombreLimpio}`,
       html: `
@@ -48,13 +47,9 @@ export default async function handler(req, res) {
         <p><em>Timestamp: ${new Date().toISOString()}</em></p>
       `
     });
-    */
 
     // OPCIÓN 2: Usar SendGrid (alternativa)
     // OPCIÓN 3: Usar Mailgun (alternativa)
-    
-    // Por ahora, retornamos éxito simulado
-    // En producción, descomentar una de las opciones arriba
     
     return res.status(200).json({
       success: true,
